@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sohaib Dev Exposed 🚫</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at center, #0d0d0d 0%, #000 100%);
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      direction: rtl;
+      text-align: right;
+    }
+
+    header {
+      background: linear-gradient(to left, #990000, #330000);
+      padding: 3rem 1rem;
+      text-align: center;
+      border-bottom: 5px solid #ff1a1a;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-family: 'Press Start 2P', monospace;
+      color: #ffcc00;
+      text-shadow: 2px 2px #000;
+    }
+
+    header p {
+      font-style: italic;
+      color: #ffc1c1;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    .card {
+      background: #1b1b1b;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      border-right: 6px solid crimson;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255,0,0,0.4);
+    }
+
+    .card h2 {
+      color: #ff4d4d;
+      margin-bottom: 1rem;
+      border-bottom: 2px dashed crimson;
+      padding-bottom: 0.5rem;
+    }
+
+    .urdu {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      font-size: 1.3rem;
+      color: #ffc1c1;
+    }
+
+    .roast-list {
+      margin-top: 1rem;
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+
+    .badge {
+      background: linear-gradient(90deg, #660000, #330000);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-weight: bold;
+      display: inline-block;
+      margin: 0.3rem;
+    }
+
+    .btn {
+      background: linear-gradient(45deg, #ff0000, #cc0000);
+      color: white;
+      font-size: 1.1rem;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: block;
+      margin: 2rem auto;
+      animation: shake 0.8s infinite alternate;
+      font-family: 'Press Start 2P', monospace;
+    }
+
+    @keyframes shake {
+      0% { transform: rotate(-1.5deg); }
+      100% { transform: rotate(1.5deg); }
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 90%;
+      max-width: 360px;
+      background: #330000;
+      color: #fff;
+      padding: 2rem;
+      transform: translate(-50%, -50%);
+      border: 4px solid #ff0000;
+      border-radius: 15px;
+      z-index: 1000;
+      text-align: center;
+      font-family: 'Press Start 2P', monospace;
+    }
+
+    .popup.show {
+      display: block;
+    }
+
+    footer {
+      padding: 2rem;
+      text-align: center;
+      color: #aaa;
+      border-top: 1px solid #333;
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      .card h2 { font-size: 1.1rem; }
+      .urdu { font-size: 1.1rem; }
+      .roast-list { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SOHAIB.EXPOSED</h1>
+    <p>“PHP likhta hai jaise WordPress plugin ho… error pe error!”</p>
+  </header>
+
+  <div class="section">
+    <div class="card">
+      <h2>🔥 PHP & WordPress Crimes</h2>
+      <div class="roast-list urdu">
+        <li>`wp-admin` ka password “12345” rakha</li>
+        <li>Plugin update live site pe bina backup ke</li>
+        <li>`echo` se HTML output karta hai phir kehta hai responsive nahi hai</li>
+        <li>Theme functions file mein pura CRUD likh diya</li>
+        <li>Database credentials GitHub pe push kar diye</li>
+        <li>`eval()` ka use karke khud ka site hack kar liya</li>
+      </div>
+      <div class="badge">Plugin Destroyer</div>
+      <div class="badge">Theme Code Criminal</div>
+      <div class="badge">Database Danger</div>
+    </div>
+
+    <div class="card">
+      <h2>📉 Git History (Pure Horror)</h2>
+      <code class="roast-list">
+        • update index.php<br>
+        • fix css<br>
+        • new plugin maybe<br>
+        • broke homepage<br>
+        • wp-config.php changes<br>
+        • white screen of death<br>
+        • final_fix<br>
+        • really_final_fix<br>
+        • ok_this_is_final
+      </code>
+    </div>
+
+    <div class="card">
+      <h2>🧠 IQ Analysis (From WP Experts)</h2>
+      <ul class="urdu">
+        <li>“Child theme? Main parent theme edit kar leta hoon”</li>
+        <li>“Security plugin? Nahi, mujhe apni coding pe bharosa hai”</li>
+        <li>“Backup? Hosting wale karenge”</li>
+        <li>“Shortcode? functions.php mein hi daal deta hoon”</li>
+        <li>“SEO? Meta tags manually likh deta hoon”</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>💬 Client Feedback</h2>
+      <div class="urdu">
+        <p>“Website load hone mein 15 second lagte hain, Sohaib ke design ke saath.”</p>
+        <p>“Plugin activate kiya aur pura layout crash ho gaya.”</p>
+        <p>“WordPress ne mujhe kaha — is bande ko chhod do.”</p>
+      </div>
+    </div>
+
+    <button class="btn" onclick="showPopup()">🚫 Ban Sohaib from WP</button>
+    <div class="popup" id="popup">
+      <h3>🔥 Official WP Council Verdict</h3>
+      <p class="urdu">Sohaib ko WordPress se permanent ban mil gaya hai. Ab site safe hai!</p>
+    </div>
+  </div>
+
+  <footer>
+    Built with 🔥 by WP survivors. Deploy on GitHub Pages for public service.
+  </footer>
+
+  <script>
+    function showPopup() {
+      document.getElementById("popup").classList.add("show");
+      setTimeout(() => {
+        document.getElementById("popup").classList.remove("show");
+      }, 5000);
+    }
+  </script>
+
+</body>
+</html>
